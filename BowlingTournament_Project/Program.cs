@@ -1,3 +1,6 @@
+using BowlingTournament_Project.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace BowlingTournament_Project
 {
     public class Program
@@ -8,6 +11,21 @@ namespace BowlingTournament_Project
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Configure DbContext
+            builder.Services.AddDbContext<BowlingDbContext>(options =>
+                options.UseSqlite(builder.Configuration.GetConnectionString("BowlingDb"))
+            );
+
+            // Configure Authentication
+            builder.Services.AddAuthentication("app-cookie")
+                .AddCookie("app-cookie", options =>
+                {
+                    options.LoginPath = "/Auth/Login";
+                    options.AccessDeniedPath = "/Auth/Denied";
+                });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
