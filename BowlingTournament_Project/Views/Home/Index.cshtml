@@ -3,6 +3,36 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to the Bowling Tournament</h1>
+    <p class="lead">Saint John Bowling Association presents the annual championship tournament</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Registered Teams</h5>
+                    <p class="card-text">See all teams that have completed registration and payment.</p>
+                    <a asp-controller="Team" asp-action="Paid" class="btn btn-primary">View Teams</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Register Your Team</h5>
+                    <p class="card-text">Register your team of 4 players for the tournament.</p>
+                    <a asp-controller="Team" asp-action="Register" class="btn btn-success">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tournament Information</h5>
+                    <p class="card-text">Registration fee: $200 per team<br>4 players per team required</p>
+                    <small class="text-muted">Payment must be completed to appear in public list</small>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Team>
+@{
+    ViewData["Title"] = "Registered Teams";
+}
+
+<h1>Registered Teams</h1>
+<p class="lead">Teams that have completed registration and payment</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No teams have completed registration and payment yet.
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Team Name</th>
+                    <th>Division</th>
+                    <th>Payment Date</th>
+                    <th>Players</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in Model)
+                {
+                    <tr>
+                        <td>@team.TeamName</td>
+                        <td>@team.Division.DivisionName</td>
+                        <td>@team.PaymentDate?.ToString("MMM dd, yyyy")</td>
+                        <td>@team.Players.Count</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@team.TeamId" class="btn btn-sm btn-info">View Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

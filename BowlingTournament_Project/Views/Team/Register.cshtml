@@ -1,0 +1,220 @@
+﻿@model BowlingTournament_Project.ViewModels.TeamRegisterVm
+@{
+    ViewData["Title"] = "Register Team";
+}
+
+<h1>Register Your Team</h1>
+<p class="lead">Complete the form below to register your team of 4 players</p>
+
+<form asp-action="Register" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Team Information</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="TeamName" class="form-label"></label>
+                        <input asp-for="TeamName" class="form-control" />
+                        <span asp-validation-for="TeamName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="DivisionId" class="form-label"></label>
+                        <select asp-for="DivisionId" class="form-select">
+                            <option value="">-- Select Division --</option>
+                            @if (Model.Divisions != null)
+                            {
+                                @foreach (var division in Model.Divisions)
+                                {
+                                    <option value="@division.DivisionId"
+                                            selected="@(Model.DivisionId == division.DivisionId ? "selected" : null)">
+                                        @division.DivisionName
+                                    </option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="DivisionId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Player 1 -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Player 1</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="Player1Name" class="form-label"></label>
+                        <input asp-for="Player1Name" class="form-control" />
+                        <span asp-validation-for="Player1Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player1City" class="form-label"></label>
+                                <input asp-for="Player1City" class="form-control" />
+                                <span asp-validation-for="Player1City" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player1Province" class="form-label"></label>
+                                <input asp-for="Player1Province" class="form-control" />
+                                <span asp-validation-for="Player1Province" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player1Email" class="form-label"></label>
+                        <input asp-for="Player1Email" class="form-control" />
+                        <span asp-validation-for="Player1Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player1Phone" class="form-label"></label>
+                        <input asp-for="Player1Phone" class="form-control" />
+                        <span asp-validation-for="Player1Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player 2 -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Player 2</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="Player2Name" class="form-label"></label>
+                        <input asp-for="Player2Name" class="form-control" />
+                        <span asp-validation-for="Player2Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player2City" class="form-label"></label>
+                                <input asp-for="Player2City" class="form-control" />
+                                <span asp-validation-for="Player2City" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player2Province" class="form-label"></label>
+                                <input asp-for="Player2Province" class="form-control" />
+                                <span asp-validation-for="Player2Province" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player2Email" class="form-label"></label>
+                        <input asp-for="Player2Email" class="form-control" />
+                        <span asp-validation-for="Player2Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player2Phone" class="form-label"></label>
+                        <input asp-for="Player2Phone" class="form-control" />
+                        <span asp-validation-for="Player2Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Player 3 -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Player 3</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="Player3Name" class="form-label"></label>
+                        <input asp-for="Player3Name" class="form-control" />
+                        <span asp-validation-for="Player3Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player3City" class="form-label"></label>
+                                <input asp-for="Player3City" class="form-control" />
+                                <span asp-validation-for="Player3City" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player3Province" class="form-label"></label>
+                                <input asp-for="Player3Province" class="form-control" />
+                                <span asp-validation-for="Player3Province" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player3Email" class="form-label"></label>
+                        <input asp-for="Player3Email" class="form-control" />
+                        <span asp-validation-for="Player3Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player3Phone" class="form-label"></label>
+                        <input asp-for="Player3Phone" class="form-control" />
+                        <span asp-validation-for="Player3Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player 4 -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Player 4</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="Player4Name" class="form-label"></label>
+                        <input asp-for="Player4Name" class="form-control" />
+                        <span asp-validation-for="Player4Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player4City" class="form-label"></label>
+                                <input asp-for="Player4City" class="form-control" />
+                                <span asp-validation-for="Player4City" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Player4Province" class="form-label"></label>
+                                <input asp-for="Player4Province" class="form-control" />
+                                <span asp-validation-for="Player4Province" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player4Email" class="form-label"></label>
+                        <input asp-for="Player4Email" class="form-control" />
+                        <span asp-validation-for="Player4Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Player4Phone" class="form-label"></label>
+                        <input asp-for="Player4Phone" class="form-control" />
+                        <span asp-validation-for="Player4Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn btn-success btn-lg">Register Team</button>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
