@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AppData\" />
+    <Folder Include="DatabaseScripts\" />
+  </ItemGroup>
+
 </Project>
