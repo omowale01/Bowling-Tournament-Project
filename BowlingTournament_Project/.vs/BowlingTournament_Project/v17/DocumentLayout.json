@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Models\\BowlingDbContext.cs",
               "ToolTip": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingDbContext.cs",
               "RelativeToolTip": "Models\\BowlingDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T16:11:26.587Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "ViewModels\\TeamRegisterVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:34:27.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:34:27.44Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "ViewModels\\TeamEditVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:33:58.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:33:58.013Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "ViewModels\\TeamDetailsVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:33:29.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:33:29.913Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "ViewModels\\PlayerEditVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:33:02.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:33:02.018Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Models\\Team.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:29:58.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:29:58.564Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Models\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:29:32.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:29:32.52Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Models\\Division.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:28:49.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:28:49.57Z"
             }
           ]
         }
