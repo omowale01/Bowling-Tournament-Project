@@ -1,54 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\adminsummaryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\adminsummaryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\adminindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\adminindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\models\\bowlinguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:models\\bowlinguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\models\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:models\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\lekea\\desktop\\server-side web\\assignments\\bowling-tournament-project\\bowlingtournament_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\teamdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\teamdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\lekea\\desktop\\server-side web\\assignments\\bowling-tournament-project\\bowlingtournament_project\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\models\\bowlingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\lekea\\desktop\\server-side web\\assignments\\bowling-tournament-project\\bowlingtournament_project\\models\\bowlingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:models\\bowlingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\teamregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\teamregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\teameditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\teameditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\viewmodels\\playereditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:viewmodels\\playereditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\dell\\onedrive\\documents\\fall 2025\\mvc\\bowling-tournament-project\\bowlingtournament_project\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,45 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginVm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\LoginVm.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginVm.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\LoginVm.cs",
-              "RelativeToolTip": "ViewModels\\LoginVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T17:12:10.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminSummaryVm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\AdminSummaryVm.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AdminSummaryVm.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\AdminSummaryVm.cs",
-              "RelativeToolTip": "ViewModels\\AdminSummaryVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T17:11:28.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminIndexVm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\AdminIndexVm.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AdminIndexVm.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\AdminIndexVm.cs",
-              "RelativeToolTip": "ViewModels\\AdminIndexVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T17:10:20.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "BowlingUser.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingUser.cs",
               "RelativeDocumentMoniker": "Models\\BowlingUser.cs",
@@ -114,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "TeamRegisterVm.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\TeamRegisterVm.cs",
               "RelativeDocumentMoniker": "ViewModels\\TeamRegisterVm.cs",
@@ -126,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "TeamEditVm.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\TeamEditVm.cs",
               "RelativeDocumentMoniker": "ViewModels\\TeamEditVm.cs",
@@ -138,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TeamDetailsVm.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\TeamDetailsVm.cs",
               "RelativeDocumentMoniker": "ViewModels\\TeamDetailsVm.cs",
@@ -146,11 +75,12 @@
               "RelativeToolTip": "ViewModels\\TeamDetailsVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T16:41:38.31Z"
+              "WhenOpened": "2025-12-02T16:41:38.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "PlayerEditVm.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\ViewModels\\PlayerEditVm.cs",
               "RelativeDocumentMoniker": "ViewModels\\PlayerEditVm.cs",
@@ -162,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\Team.cs",
               "RelativeDocumentMoniker": "Models\\Team.cs",
@@ -174,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Models\\Player.cs",
@@ -186,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Division.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\Division.cs",
               "RelativeDocumentMoniker": "Models\\Division.cs",
@@ -194,19 +124,21 @@
               "RelativeToolTip": "Models\\Division.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T16:41:38.318Z"
+              "WhenOpened": "2025-12-02T16:41:38.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "BowlingDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingDbContext.cs",
               "RelativeDocumentMoniker": "Models\\BowlingDbContext.cs",
-              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingDbContext.cs",
+              "ToolTip": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\Models\\BowlingDbContext.cs",
               "RelativeToolTip": "Models\\BowlingDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T16:41:38.276Z"
+              "WhenOpened": "2025-12-02T16:52:45.131Z",
+              "EditorCaption": ""
             }
           ]
         }
