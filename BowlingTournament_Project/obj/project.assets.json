@@ -3218,23 +3218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wouak\\.nuget\\packages\\": {},
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\BowlingTournament_Project.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\BowlingTournament_Project.csproj",
       "projectName": "BowlingTournament_Project",
-      "projectPath": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\BowlingTournament_Project.csproj",
-      "packagesPath": "C:\\Users\\wouak\\.nuget\\packages\\",
-      "outputPath": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\obj\\",
+      "projectPath": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\BowlingTournament_Project.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wouak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3301,8 +3301,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Dell\\OneDrive\\Documents\\fall 2025\\MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
