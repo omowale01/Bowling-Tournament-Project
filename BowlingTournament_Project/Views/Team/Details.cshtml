@@ -1,0 +1,65 @@
+﻿@model BowlingTournament_Project.ViewModels.TeamDetailsVm
+@{
+    ViewData["Title"] = "Team Details";
+}
+
+<h1>Team Details</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h3>@Model.TeamName</h3>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Division:</strong> @Model.DivisionName</p>
+                <p>
+                    <strong>Registration Status:</strong>
+                    @if (Model.RegistrationPaid)
+                    {
+                        <span class="badge bg-success">Paid</span>
+                        <br>
+
+                        <strong>Payment Date:</strong>
+                        @Model.PaymentDate?.ToString("MMM dd, yyyy")
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning">Pending Payment</span>
+                    }
+                </p>
+            </div>
+        </div>
+
+        <h4 class="mt-4">Players</h4>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>Province</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var player in Model.Players)
+                    {
+                        <tr>
+                            <td>@player.PlayerName</td>
+                            <td>@player.City</td>
+                            <td>@player.Province</td>
+                            <td>@player.Email</td>
+                            <td>@player.Phone</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-3">
+            <a asp-action="Paid" class="btn btn-secondary">Back to Teams List</a>
+        </div>
+    </div>
+</div>

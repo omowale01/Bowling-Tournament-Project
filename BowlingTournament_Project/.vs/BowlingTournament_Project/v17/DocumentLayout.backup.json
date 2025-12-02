@@ -1,9 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\",
+  "WorkspaceRootPath": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\users\\lekea\\desktop\\server-side web\\assignments\\bowling-tournament-project\\bowlingtournament_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:views\\team\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\views\\team\\paid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:views\\team\\paid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\views\\team\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:views\\team\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|c:\\nbcc\\2nd year\\semester 1\\server-side web mvc\\bowling-tournament-project\\bowlingtournament_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6E51A2F8-76E8-45E0-AA5A-35C2B6E12B52}|BowlingTournament_Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -14,23 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T13:28:13.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T12:57:49.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Register.cshtml",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Register.cshtml",
+              "RelativeToolTip": "Views\\Team\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T12:46:21.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paid.cshtml",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Paid.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Paid.cshtml",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Paid.cshtml",
+              "RelativeToolTip": "Views\\Team\\Paid.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T12:45:59.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Team\\Details.cshtml",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\Views\\Team\\Details.cshtml",
+              "RelativeToolTip": "Views\\Team\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T12:45:44.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\appsettings.json",
+              "DocumentMoniker": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\lekea\\Desktop\\Server-Side Web\\Assignments\\Bowling-Tournament-Project\\BowlingTournament_Project\\appsettings.json",
+              "ToolTip": "C:\\NBCC\\2nd Year\\Semester 1\\Server-side Web MVC\\Bowling-Tournament-Project\\BowlingTournament_Project\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
