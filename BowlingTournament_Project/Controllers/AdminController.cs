@@ -326,5 +326,57 @@ namespace BowlingTournament_Project.Controllers
 
             return View(summary);
         }
+
+        // MVC: Edit Player (GET)
+        public IActionResult EditPlayer(int id)
+        {
+            var player = _db.Players.Find(id);
+            if (player == null)
+            {
+                return NotFound();
+            }
+
+            var vm = new PlayerEditVm
+            {
+                PlayerId = player.PlayerId,
+                TeamId = player.TeamId,
+                PlayerName = player.PlayerName,
+                City = player.City,
+                Province = player.Province,
+                Email = player.Email,
+                Phone = player.Phone
+            };
+
+            return View(vm);
+        }
+
+        // MVC: Edit Player (POST)
+        [HttpPost]
+        public IActionResult EditPlayer(PlayerEditVm vm)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            var player = _db.Players.Find(vm.PlayerId);
+            if (player == null)
+            {
+                return NotFound();
+            }
+
+            // Update player information
+            player.PlayerName = vm.PlayerName;
+            player.City = vm.City;
+            player.Province = vm.Province;
+            player.Email = vm.Email;
+            player.Phone = vm.Phone;
+
+            _db.SaveChanges();
+
+            TempData["Success"] = $"Player '{vm.PlayerName}' updated successfully!";
+            return RedirectToAction("ManagePlayers", new { teamId = vm.TeamId });
+        }
     }
 }

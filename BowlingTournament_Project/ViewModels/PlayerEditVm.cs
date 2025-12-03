@@ -20,6 +20,7 @@ namespace BowlingTournament_Project.ViewModels
         [EmailAddress(ErrorMessage = "Invalid email address.")]
         public string Email { get; set; } = "";
 
+        [RegularExpression(@"^\d{3}-\d{3}-\d{4}$", ErrorMessage = "Phone must be in format 506-452-8742.")]
         public string Phone { get; set; } = "";
     }
 }
