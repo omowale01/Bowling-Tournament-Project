@@ -1,0 +1,43 @@
+﻿@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Division Summary Report";
+}
+
+<h1>Division Summary Report</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No data available.
+    </div>
+}
+else
+{
+    <div class="table-responsive mt-4">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Division</th>
+                    <th>Total Teams</th>
+                    <th>Paid Teams</th>
+                    <th>Total Fees</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.DivisionName</td>
+                        <td>@item.TotalTeams</td>
+                        <td>@item.PaidTeams</td>
+                        <td>@item.TotalFees.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">Back to Teams</a>
+</div>

@@ -1,0 +1,82 @@
+﻿@model BowlingTournament_Project.Models.Team
+@{
+    ViewData["Title"] = "Manage Players";
+}
+
+<h1>Manage Players - @Model.TeamName</h1>
+<p class="lead">Division: @Model.Division.DivisionName</p>
+
+<div class="alert alert-info mb-3">
+    <i class="bi bi-info-circle"></i> <strong>Team Rules:</strong> Each team must have exactly 4 players.
+</div>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4>Players (@Model.Players.Count/4)</h4>
+    @if (Model.Players.Count < 4)
+    {
+        <a asp-action="AddPlayer" asp-route-teamId="@Model.TeamId" class="btn btn-success">
+            <i class="bi bi-plus-lg"></i> Add Player
+        </a>
+    }
+    else
+    {
+        <span class="text-muted">Team is full (4 players maximum)</span>
+    }
+</div>
+
+@if (!Model.Players.Any())
+{
+    <div class="alert alert-info">
+        No players added to this team yet.
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Player Name</th>
+                    <th>City</th>
+                    <th>Province</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model.Players)
+                {
+                    <tr>
+                        <td>@player.PlayerName</td>
+                        <td>@player.City</td>
+                        <td>@player.Province</td>
+                        <td>@player.Email</td>
+                        <td>@player.Phone</td>
+                        <td>
+                            <form asp-action="RemovePlayer" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@player.PlayerId" />
+                                <button type="submit" class="btn btn-sm btn-outline-danger"
+                                        onclick="return confirm('Are you sure you want to remove this player?')">
+                                    Remove
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">Back to Teams</a>
+</div>
